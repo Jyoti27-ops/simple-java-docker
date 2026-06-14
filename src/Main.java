@@ -1,5 +1,8 @@
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello, from Docker and GitHub!");
+    public static void main(String[] args) throws Exception {
+        while(true) {
+            System.out.println("Application Running...");
+            Thread.sleep(10000);
+        }
     }
 }
