@@ -1,8 +1,5 @@
-import java.util.Date;
-
-public class Main {
+public class HelloWorld {
     public static void main(String[] args) {
-        Date currentDate = new Date();
-        System.out.println("Hello, Docker! Current date: " + currentDate);
+        System.out.println("Hello from Docker and GitHub!");
     }
 }
